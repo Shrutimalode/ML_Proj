@@ -21,14 +21,13 @@ The objective of the project was to integrate **Machine Learning (ML)** practice
 
 
 ## 📂 Project Structure
-
 ML_Proj3-main/
 ├── artifacts/ # Stored intermediate files (models, scalers)
 ├── catboost_info/ # CatBoost specific data (if used)
 ├── logs/ # Log files for monitoring
 ├── notebook/ # Jupyter notebooks for EDA & training
 │ └── data/
-│ ├── stud.csv # Input dataset
+│ ├── stud.csv
 │ ├── 1. EDA STUDENT.ipynb
 │ └── 2. MODEL TRAINING.ipynb
 ├── src/ # Core source code
@@ -37,11 +36,15 @@ ML_Proj3-main/
 │ ├── exception.py # Custom exception handling
 │ ├── logger.py # Logging setup
 │ └── utils.py # Utility functions
-├── templates/ # For web interface (HTML templates)
+├── templates/ # Web interface (HTML templates)
 ├── app.py # Flask app for deployment
 ├── setup.py # Project setup script
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+
+---
+
+
 
 ## 📊 Notebooks
 
